@@ -19,6 +19,7 @@ Jeweler::Tasks.new do |gem|
   gem.description = %Q{In Rails, you can store prices as a decimal with precision 8 and scale 2. This gem ensures that your templates print them like prices.}
   gem.email = "paul@rslw.com"
   gem.authors = ["Paul Campbell"]
+  gem.files = FileList["[A-Za-z]*", "lib/**/*"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
