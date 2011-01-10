@@ -15,8 +15,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "big_decimal_price"
   gem.homepage = "http://github.com/paulca/big_decimal_price"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{BigDecimal.new('10.9').to_s #=> '10.90'}
+  gem.description = %Q{In Rails, you can store prices as a decimal with precision 8 and scale 2. This gem ensures that your templates print them like prices.}
   gem.email = "paul@rslw.com"
   gem.authors = ["Paul Campbell"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
