@@ -10,15 +10,13 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Paul Campbell"]
   s.date = %q{2011-01-10}
-  s.description = %q{TODO: longer description of your gem}
+  s.description = %q{In Rails, you can store prices as a decimal with precision 8 and scale 2. This gem ensures that your templates print them like prices.}
   s.email = %q{paul@rslw.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
     "README.md"
   ]
   s.files = [
-    ".document",
-    ".rspec",
     "Gemfile",
     "Gemfile.lock",
     "LICENSE.txt",
@@ -27,15 +25,13 @@ Gem::Specification.new do |s|
     "VERSION",
     "big_decimal_price.gemspec",
     "lib/big_decimal.rb",
-    "lib/big_decimal_price.rb",
-    "spec/big_decimal_spec.rb",
-    "spec/spec_helper.rb"
+    "lib/big_decimal_price.rb"
   ]
   s.homepage = %q{http://github.com/paulca/big_decimal_price}
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}
-  s.summary = %q{TODO: one-line summary of your gem}
+  s.summary = %q{BigDecimal.new('10.9').to_s #=> '10.90'}
   s.test_files = [
     "spec/big_decimal_spec.rb",
     "spec/spec_helper.rb"
