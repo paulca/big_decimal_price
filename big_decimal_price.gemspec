@@ -20,9 +20,15 @@ Gem::Specification.new do |s|
     ".document",
     ".rspec",
     "Gemfile",
+    "Gemfile.lock",
     "LICENSE.txt",
+    "README.md",
     "Rakefile",
+    "VERSION",
+    "big_decimal_price.gemspec",
+    "lib/big_decimal.rb",
     "lib/big_decimal_price.rb",
+    "spec/big_decimal_spec.rb",
     "spec/spec_helper.rb"
   ]
   s.homepage = %q{http://github.com/paulca/big_decimal_price}
