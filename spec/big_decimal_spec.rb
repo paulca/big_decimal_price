@@ -12,5 +12,6 @@ describe BigDecimal do
   describe "#in_cents" do
     subject { BigDecimal.new('9.99') }
     its(:in_cents){  should == 999 }
+    its(:in_cents){  should be_a_kind_of(Integer) }
   end
 end

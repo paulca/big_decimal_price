@@ -10,6 +10,6 @@ class BigDecimal
   alias_method :to_s, :to_s_with_format
   
   def in_cents
-    self * 100
+    (self * 100).to_i
   end
 end
